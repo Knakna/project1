@@ -79,7 +79,7 @@ p {
     font-weight: 500;
     line-height: 20px;
     text-decoration: none;
-    transition: color .2 linear;
+    transition: color .2s linear;
 }
 
 .header-nav-link:hover {
@@ -116,16 +116,16 @@ p {
 .h2 {
     opacity: 0.6;
     color: #fff;
-    font-size: 21px;
+    font-size: 1.4rem;
     font-weight: 300;
 }
 
 .title {
     margin-bottom: 10px;
     color: #fff;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 1.2;
 }
 
 .title span {
@@ -154,7 +154,7 @@ p {
     background-color: #4e8fe9;
     cursor: pointer;
     border: 0;
-    transition: background-color .2 linear;
+    transition: background-color .2s linear;
 }
 
 .btn:hover {
@@ -194,7 +194,7 @@ p {
 }
 
 .contacts-link {
-    margin-right: 30px;
+    margin-right: 2rem;
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
@@ -279,32 +279,32 @@ p {
 }
 
 @media (max-width: 565px) {
-/* Content */
-.content {
-    text-align: center;
-}
-    
-    
+    /* Content */
+    .content {
+        text-align: center;
+    }
     /* Header */
+    .header {
+        margin-bottom: 50px;
+    }
     .header-inner {
         flex-direction: column;
     }
     .header-brand {
         margin-bottom: 1rem;
     }
-       /* Contacts */
+    /* Contacts */
     .contacts {
-        flex-direction: column;}
+        flex-direction: column;
+    }
     .contacts-link {
         margin-right: 0;
         margin-bottom: .5rem;
     }
     .contacts-link:last-child {
-             margin-bottom: 0;
+        margin-bottom: 0;
     }
     .contacts-link:last-child:after {
         display: none;
-    }    
+    }
 }
-
-
